@@ -1,0 +1,20 @@
+constants:
+	a: d4
+end
+
+data:
+	
+end
+
+instruction:
+	inc r1 r1
+	movc r0 a
+	jmpz KRAJ
+PETLJA:
+	shl r1 r1
+	dec r0 r0
+	jmpnz PETLJA
+KRAJ:
+	mov r1 r1
+	jmp KRAJ
+end

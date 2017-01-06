@@ -1,0 +1,54 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+
+entity instr_rom is
+    Port ( iA : in  STD_LOGIC_VECTOR (4 downto 0);
+           oQ : out  STD_LOGIC_VECTOR (14 downto 0));
+end instr_rom;
+
+architecture Behavioral of instr_rom is
+
+type tINSTR is array (0 to 31) of STD_LOGIC_VECTOR(14 downto 0);
+signal sINSTRUKCIJE : tINSTR;
+
+--konstante za instrukcije:
+constant mov 	: STD_LOGIC_VECTOR(5 downto 0) := "000000";
+constant add 	: STD_LOGIC_VECTOR(5 downto 0) := "000001";
+constant sub 	: STD_LOGIC_VECTOR(5 downto 0) := "000010";
+constant i_and	: STD_LOGIC_VECTOR(5 downto 0) := "000011";
+constant i_or 	: STD_LOGIC_VECTOR(5 downto 0) := "000100";
+constant i_not : STD_LOGIC_VECTOR(5 downto 0) := "000101";
+constant inc 	: STD_LOGIC_VECTOR(5 downto 0) := "000110";
+constant dec 	: STD_LOGIC_VECTOR(5 downto 0) := "000111";
+constant shl 	: STD_LOGIC_VECTOR(5 downto 0) := "001000";
+constant shr 	: STD_LOGIC_VECTOR(5 downto 0) := "001001";
+constant ashl 	: STD_LOGIC_VECTOR(5 downto 0) := "001010";
+constant ashr 	: STD_LOGIC_VECTOR(5 downto 0) := "001011";
+constant jmp 	: STD_LOGIC_VECTOR(5 downto 0) := "010000";
+constant jmpz 	: STD_LOGIC_VECTOR(5 downto 0) := "010001";
+constant jmps 	: STD_LOGIC_VECTOR(5 downto 0) := "010010";
+constant jmpc 	: STD_LOGIC_VECTOR(5 downto 0) := "010011";
+constant jmpnz	: STD_LOGIC_VECTOR(5 downto 0) := "010101";
+constant jmpns	: STD_LOGIC_VECTOR(5 downto 0) := "010110";
+constant jmpnc	: STD_LOGIC_VECTOR(5 downto 0) := "010111";
+constant i_ld 	: STD_LOGIC_VECTOR(5 downto 0) := "100000";
+constant i_st	: STD_LOGIC_VECTOR(5 downto 0) := "110000";
+constant cmp	: STD_LOGIC_VECTOR(5 downto 0) := "001100";
+constant movc	: STD_LOGIC_VECTOR(5 downto 0) := "100001";
+
+--konstante za registre:
+constant R0	: STD_LOGIC_VECTOR(2 downto 0) := "000";
+constant R1	: STD_LOGIC_VECTOR(2 downto 0) := "001";
+constant R2	: STD_LOGIC_VECTOR(2 downto 0) := "010";
+constant R3	: STD_LOGIC_VECTOR(2 downto 0) := "011";
+constant R4	: STD_LOGIC_VECTOR(2 downto 0) := "100";
+constant R5	: STD_LOGIC_VECTOR(2 downto 0) := "101";
+constant R6	: STD_LOGIC_VECTOR(2 downto 0) := "110";
+constant R7	: STD_LOGIC_VECTOR(2 downto 0) := "111";
+
+
+begin
+

@@ -1,0 +1,6 @@
+vhdl isim_temp "reg.vhd"
+vhdl isim_temp "mux.vhd"
+vhdl isim_temp "control_unit.vhd"
+vhdl isim_temp "cnt.vhd"
+vhdl isim_temp "alu.vhd"
+vhdl isim_temp "procesor.vhd"

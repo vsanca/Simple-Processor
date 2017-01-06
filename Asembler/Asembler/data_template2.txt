@@ -1,0 +1,11 @@
+		else
+			if(iWE='1')then
+				sRAM(conv_integer(iA))<=iD;
+			end if;
+		end if;
+	end if;
+end process;
+
+oQ<=sRAM(conv_integer(iA));
+
+end Behavioral;

@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "D:/FTN/III semestar/ISE/Procesor/instr_rom.xst" -ofn "D:/FTN/III semestar/ISE/Procesor/instr_rom.syr" 
+xst -intstyle ise -ifn "D:/FTN/III semestar/ISE/Procesor/instr_rom.xst" -ofn "D:/FTN/III semestar/ISE/Procesor/instr_rom.syr" 
+xst -intstyle ise -ifn "D:/FTN/III semestar/ISE/Procesor/instr_rom.xst" -ofn "D:/FTN/III semestar/ISE/Procesor/instr_rom.syr" 
+xst -intstyle ise -ifn "D:/FTN/III semestar/ISE/Procesor/instr_rom.xst" -ofn "D:/FTN/III semestar/ISE/Procesor/instr_rom.syr" 
+xst -intstyle ise -ifn "D:/FTN/III semestar/ISE/FinalniProjekat_v0.0.1/instr_rom.xst" -ofn "D:/FTN/III semestar/ISE/FinalniProjekat_v0.0.1/instr_rom.syr" 
+xst -intstyle ise -ifn "D:/FTN/III semestar/ISE/FinalniProjekat_v0.0.1/instr_rom.xst" -ofn "D:/FTN/III semestar/ISE/FinalniProjekat_v0.0.1/instr_rom.syr" 
+xst -intstyle ise -ifn "D:/FTN/III semestar/ISE/FinalniProjekat_v0.0.1/instr_rom.xst" -ofn "D:/FTN/III semestar/ISE/FinalniProjekat_v0.0.1/instr_rom.syr" 

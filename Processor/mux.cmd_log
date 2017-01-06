@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/materija/RA1-2013/Procesor/mux.xst" -ofn "C:/materija/RA1-2013/Procesor/mux.syr" 
+xst -intstyle ise -ifn "D:/FTN/III semestar/ISE/FinalniProjekat_v0.0.1/mux.xst" -ofn "D:/FTN/III semestar/ISE/FinalniProjekat_v0.0.1/mux.syr" 

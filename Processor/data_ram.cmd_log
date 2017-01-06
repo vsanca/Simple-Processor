@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "D:/FTN/III semestar/ISE/Procesor/data_ram.xst" -ofn "D:/FTN/III semestar/ISE/Procesor/data_ram.syr" 
+xst -intstyle ise -ifn "D:/FTN/III semestar/ISE/Procesor/data_ram.xst" -ofn "D:/FTN/III semestar/ISE/Procesor/data_ram.syr" 
+xst -intstyle ise -ifn "D:/FTN/III semestar/ISE/Procesor/data_ram.xst" -ofn "D:/FTN/III semestar/ISE/Procesor/data_ram.syr" 
+xst -intstyle ise -ifn "D:/FTN/III semestar/ISE/Procesor/data_ram.xst" -ofn "D:/FTN/III semestar/ISE/Procesor/data_ram.syr" 
+xst -intstyle ise -ifn "D:/FTN/III semestar/ISE/Procesor/data_ram.xst" -ofn "D:/FTN/III semestar/ISE/Procesor/data_ram.syr" 

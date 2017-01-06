@@ -1,0 +1,5 @@
+
+oQ<=sINSTRUKCIJE(conv_integer(iA));
+
+
+end Behavioral;

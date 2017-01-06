@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/materija/RA1-2013/Procesor/reg.xst" -ofn "C:/materija/RA1-2013/Procesor/reg.syr" 
