@@ -10,3 +10,5 @@ In order to run programs written in human syntax, a simple Assembler language ha
 machine code is generated in form of 2 .vhd files needed to be placed in the Processor folder.
 
 This is a simple concept and project used for research of logical components and processor architecture, as well as looking into more theoretical aspects of machine code, computer architecture and a good introduction to compilers.
+
+### Note: This project is published in original form, last change: January 2015.
